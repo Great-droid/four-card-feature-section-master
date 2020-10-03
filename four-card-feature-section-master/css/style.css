@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 11px;
+    margin-top: 1em;
+    font-weight: lighter;
+}
+
+img {
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+    height: 2em;
+    width: 2em;
+}
+
+.heading-1 {
+    font-weight: 200;
+    font-size: 20px;
+}
+.heading-2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.box-h1 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.box-p {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    font-size: 10px;
+}
+
+.main {
+    height: 100vh;
+    align-items: center;
+    width: 90%;
+    margin-top: -4em;
+    display: flex;
+    justify-content: center;
+    margin-left: 3em;
+}
+
+.col-1 {
+    height: 200px;
+    width: 300px;
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color: hsl(180, 62%, 55%);
+    margin: auto 50px auto 50px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 5px 8px #888888;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2 .first {
+    height: 200px;
+    width: 300px;
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color:  hsl(0, 78%, 62%);
+    background-color: white;
+    border-radius: 6px;
+    text-align: left;
+    box-shadow: 1px 5px 8px #888888;
+}
+
+.col-2 .second {
+    height: 200px;
+    width: 300px;
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color:  hsl(34, 97%, 64%);
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: left;
+    box-shadow: 1px 5px 8px #888888;
+}
+
+
+.col-3 {
+    height: 200px;
+    width: 300px;
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color:  hsl(212, 86%, 64%);
+    margin: auto 50px auto 50px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: left;
+    box-shadow: 1px 5px 8px #888888;
+}
+
+@media (max-width: 940px) {
+
+    .header {
+        margin-bottom: -2em;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        margin: auto;
+    }
+
+    .col-2 .first {
+        margin-bottom: 2em;
+    }
+
+    .attribution {
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
