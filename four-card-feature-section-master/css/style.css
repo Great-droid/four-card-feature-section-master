@@ -19,8 +19,6 @@ img {
   float: right;
   margin-right: 1em;
   margin-top: 1em;
-  height: 2em;
-  width: 2em;
 }
 
 .heading-1 {
@@ -52,8 +50,9 @@ img {
 
 .box-p {
   margin-top: 1.5em;
-  margin-left: 1.5em;
-  font-size: 10px;
+  margin-left: 1em;
+  margin-right: 0.5em;
+  font-size: 14.25px;
 }
 
 .main {
